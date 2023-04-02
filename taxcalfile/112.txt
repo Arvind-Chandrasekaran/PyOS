@@ -1,0 +1,6 @@
+under 60 male
+Income:123456789
+Health:12345678
+Transport:123456789
+Other:12345678
+Tax Amount : Rs 81293980.2
