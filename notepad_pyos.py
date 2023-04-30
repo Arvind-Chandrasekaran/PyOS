@@ -10,7 +10,7 @@ def notepad_launch(window,trt="",bol=True):
     notepad=tk.Tk()
     button_pane=tk.Frame(notepad)
     button_pane.pack(pady=20)
-    directory_files=os.listdir("D:/Computer Science Project Class XII-A/New Compile Fix/Notes")
+    directory_files=os.listdir("D:/PyOS/New Compile Fix/Notes")
     def save():
         global cv
         text=TextArea.get("1.0",tk.END)
@@ -24,7 +24,7 @@ def notepad_launch(window,trt="",bol=True):
         format.grid(row=0,column=2)
         def sav_fil():
             global cv
-            name=os.path.join("D:/Computer Science Project Class XII-A/New Compile Fix/Notes/",str(fil_name.get())+cv.get())
+            name=os.path.join("D:/PyOS/New Compile Fix/Notes/",str(fil_name.get())+cv.get())
             f=open(name,"w")
             if (str(fil_name.get())+cv.get()) in directory_files:
                 h=tk.messagebox.askyesnocancel(title="Warning", message="File With Same Name Exists In Directory.\nDo You Wish To Overwrite?")
