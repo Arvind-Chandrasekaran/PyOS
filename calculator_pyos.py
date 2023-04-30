@@ -254,7 +254,7 @@ def calculator(menu):
                          font="None 16")
     calculatebut.place(width=110,x=440+110+55,y=190+42)
     
-    arrow=tk.PhotoImage(file=r"D:\Computer Science Project Class XII-A\New Compile Fix\Blue_arrow.png")
+    arrow=tk.PhotoImage(file=r"D:\PyOS\New Compile Fix\Blue_arrow.png")
     deletebut=tk.Button(pane,text="<--",background="white",foreground="blue",\
                          command= delete,borderwidth=0,image=arrow)
     deletebut.place(width=110,x=660,y=190)
