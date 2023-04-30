@@ -57,7 +57,7 @@ def notepad_launch(window,trt="",bol=True):
             def get_file():
                 global z,n
                 z=n.get()
-                file_dir=os.path.join("D:/Computer Science Project Class XII-A/New Compile Fix/Notes/",str(z))
+                file_dir=os.path.join("D:/PyOS/New Compile Fix/Notes/",str(z))
                 file_text=open(file_dir).read()
                 notepad.destroy()
                 open_window.destroy()
