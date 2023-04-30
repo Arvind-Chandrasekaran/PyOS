@@ -9,7 +9,7 @@ def menu_launch():
     menu=tk.Tk()
     def exit_menu():
         menu.destroy()
-    cross=tk.PhotoImage(file=r"D:\Computer Science Project Class XII-A\New Compile Fix\cross.png")
+    cross=tk.PhotoImage(file=r"D:\PyOS\New Compile Fix\cross.png")
     exit_button=tk.Button(menu,text="Exit",command=exit_menu,font="None 20",image=cross,bg="black").place(x=0,y=0)
     logo=tk.Canvas(menu,bg="black",width=231,height=231,highlightthickness=0)
     logo.pack(pady=50)
