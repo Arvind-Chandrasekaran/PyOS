@@ -44,7 +44,7 @@ def tax(menu):
         
         
         def savebutfunc():
-            completeName = os.path.join("D:/Computer Science Project Class XII-A/New Compile Fix/taxcalfile",\
+            completeName = os.path.join("D:/PyOS/New Compile Fix/taxcalfile",\
                                 entry.get()+".txt") 
             
             if str(entry.get()+".txt") in existing_files:
@@ -77,7 +77,7 @@ def tax(menu):
                 save.destroy()
                 
         save=tk.Tk()
-        existing_files=os.listdir("D:/Computer Science Project Class XII-A/New Compile Fix/taxcalfile")
+        existing_files=os.listdir("D:/PyOS/New Compile Fix/taxcalfile")
         save.configure(bg="white")
         
         File_name=tk.Label(save,text="File name",bg="white")
