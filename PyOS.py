@@ -171,7 +171,7 @@ logo.create_image(0,0,anchor=tk.NW,image=img)
 root1.title("PyOS")
 root1.attributes("-fullscreen",True)
 
-cross=tk.PhotoImage(file=r"D:\Computer Science Project Class XII-A\New Compile Fix\cross.png")
+cross=tk.PhotoImage(file=r"D:\PyOS\New Compile Fix\cross.png")
 
 CancelButton=tk.Button(root1,text="Exit",command=root1.destroy,bg="black",image = cross,fg="red")
 
